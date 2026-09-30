@@ -1,40 +1,24 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en-ZA">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta name="description" content="PoshBakehouse - Artisan cakes and pastries in Johannesburg">
-  <title>PoshBakehouse | Home</title>
-  <link rel="stylesheet" href="css/style.css">
+<meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>PoshBakehouse | Luxury Cakes & Cupcakes Sandton Johannesburg</title>
+<meta name="description" content="PoshBakehouse - Artisan cakes and pastries in Sandton. Custom wedding cakes, cupcakes, same-day delivery.">
+<meta name="keywords" content="PoshBakehouse, luxury cakes Sandton, wedding cakes Johannesburg">
+<meta name="author" content="PoshBakehouse">
+<link rel="canonical" href="https://poshbakehouse.netlify.app/">
+<meta property="og:image" content="images/hero-cake.jpg">
+<meta name="robots" content="index, follow">
+<link rel="stylesheet" href="css/style.css">
+<link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css">
+<script type="application/ld+json">{"@context":"https://schema.org","@type":"Bakery","name":"PoshBakehouse","address":{"@type":"PostalAddress","streetAddress":"123 Baker Street","addressLocality":"Sandton","addressRegion":"Gauteng","addressCountry":"ZA"}}</script>
 </head>
 <body>
-  <header>
-    <img src="images/logo.jpg" alt="PoshBakehouse Logo" width="150">
-    <nav>
-      <a href="index.html">Home</a>
-      <a href="about.html">About</a>
-      <a href="products.html">Products</a>
-      <a href="enquiry.html">Enquiry</a>
-      <a href="contact.html">Contact</a>
-    </nav>
-  </header>
-
-  <main>
-    <section class="hero">
-      <img src="images/hero-cake.jpg" alt="Pink celebration cake with berries">
-      <h1>PoshBakehouse</h1>
-      <p>Artisan Baked Goods Made With Love in Johannesburg</p>
-      <a href="products.html" class="btn">View Our Menu</a>
-    </section>
-    
-    <section>
-      <h2>Why Choose PoshBakehouse?</h2>
-      <p>From birthday cakes to daily pastries, we bake fresh every morning using premium ingredients. Perfect for celebrations, corporate events, or just treating yourself.</p>
-    </section>
-  </main>
-
-  <footer>
-    <p> 2026 PoshBakehouse. All rights reserved. | hello@poshbakehouse.co.za</p>
-  </footer>
-  </body>
+<header><img src="images/logo.jpg" alt="PoshBakehouse Logo - Luxury Bakery Sandton" width="150"><nav><a href="index.html">Home</a><a href="about.html">About</a><a href="products.html">Products</a><a href="enquiry.html">Enquiry</a><a href="contact.html">Contact</a></nav></header>
+<main><section class="hero"><img src="images/hero-cake.jpg" alt="Pink celebration cake - PoshBakehouse bestseller"><h1>PoshBakehouse</h1><p>Artisan Baked Goods Made with Love in Johannesburg</p><a href="products.html" class="btn">View Our Menu</a></section>
+<section class="container"><h2>Our Specials - Tabs</h2><div style="margin:1rem 0"><button class="btn tab-btn active" data-tab="cakesTab">Cakes</button> <button class="btn tab-btn" data-tab="cupTab">Cupcakes</button></div><div id="cakesTab" class="tab-content" style="background:#3B2316;padding:1rem;border-radius:15px">Chocolate Celebration R450 - bestseller</div><div id="cupTab" class="tab-content" style="display:none;background:#3B2316;padding:1rem;border-radius:15px">Gourmet Cupcakes R180 for 6</div><p style="margin-top:1rem">Internal Links: <a href="products.html">See menu</a> | <a href="about.html">Our story</a> | <a href="enquiry.html">Enquire</a></p></section></main>
+<footer><p>2026 PoshBakehouse | hello@poshbakehouse.co.za | <a href="sitemap.xml">Sitemap</a> | <a href="robots.txt">Robots</a></p></footer>
+<div id="lightbox" class="lightbox"><img id="lightbox-img" src=""></div><div id="offerModal" class="modal"><div class="modal-content"><h2>🎉 15% OFF Today!</h2><p>Use code POSH15 - Sandton delivery</p><button class="btn close-modal">Claim Now</button> <button class="btn close-modal" style="background:#ddd;color:#333;margin-left:.5rem">Close</button></div></div>
+<script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script><script src="js/main.js"></script>
+</body>
 </html>

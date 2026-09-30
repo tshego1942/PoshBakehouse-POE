@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://poshbakehouse.netlify.app/sitemap.xml
